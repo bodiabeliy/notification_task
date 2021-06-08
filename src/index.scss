@@ -1,0 +1,152 @@
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+// Variablies for all selectors 
+$body-background: #e3e3e3;
+$start-zero:0;
+$flex: flex;
+$none: none;
+$h1: 18px;
+$paragraph: 13px;
+$span: 11px;
+$center:center;
+$circle: 50%;
+// Variablies for something selectors
+$list-contant-wrapper-width:329px;
+$default-background: white;
+$btn-bell-size: 42px;
+$notes-body-sizing:16px;
+$time-color: #A2A9B9;
+$stepper-color:#FE6347;
+// SCSS-classes
+
+* {
+ margin: $start-zero;
+ padding: $start-zero;
+}
+body {
+ background-color: $body-background !important;
+}
+
+
+// component List
+.list-contant__wrapper {
+ max-width: $list-contant-wrapper-width;
+ margin-left: 25px;
+}
+.list-contant__show-btn {
+ position: relative;
+ display: $flex;
+ justify-content: flex-end;
+ margin-right: 12px;
+ .show-btn__bell {
+  width: $btn-bell-size;
+  height: $btn-bell-size;
+  border-radius: 100px;
+  border: $none;
+  margin-bottom: 10px;
+  background: $default-background;
+ }
+}
+
+.list-contant__list-area {
+ width: 100%;
+ height: 378px;
+ background-color: $default-background;
+ border-radius: 10px;
+ overflow-y: auto;
+ .list-area__wrapper {
+  padding-left: 21px;
+  padding-top: 45px;
+  font-family: 'Inter', sans-serif;
+  font-size: $paragraph;
+ }
+ .list-area__text-btn {
+  font-family: 'Inter', sans-serif;
+ font-size: 11px;
+ line-height: $paragraph;
+ letter-spacing: 1px;
+ text-align: $center;
+ margin: 0 auto;
+ text-align: $center;
+ text-transform: uppercase;
+ color: #2361FF;
+ }
+}
+
+.notes__container {
+ display: $flex;
+ margin-bottom: 10px;
+
+ .notes-body__section {
+  margin-left: $notes-body-sizing;
+  line-height: $notes-body-sizing;
+ }
+ .notes-body__span {
+  color: $time-color;
+  font-size: $span;
+  line-height: 25px;
+ }
+}
+// Variablies for something selectors
+
+
+// component LevelEnglish
+.level-english__container {
+ max-width: 285px;
+ height: 325px;
+ background: #FAFCFF;
+ border-radius: 5px;
+ margin: 0 auto;
+ margin-top: 25px;
+}
+h1{
+ font-family: Roboto;
+ font-size: $h1;
+ line-height: 21px;
+ color: #1A2E35;
+ text-align: $center;
+ padding-top: 39px;
+ padding-right: 50px;
+}
+
+//style for Stepper (MUI)
+
+
+.MuiStepIcon-root {
+ width: 11px !important;
+ height: 11px !important;
+ background-color: $stepper-color !important;
+ color: $stepper-color!important;
+ border-radius: $circle;
+ border: 0.5px solid $stepper-color !important;
+ circle {
+  display: $none;
+ }
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+ background: $default-background!important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+ color: $default-background !important;
+}
+
+.MuiStepIcon-text {
+ display: $none;
+}
+.MuiStepConnector-vertical {
+ padding: $none !important;
+ margin-left: 6px !important;
+ border-left: 3px solid $stepper-color !important;
+}
+.MuiStepConnector-lineVertical {
+ min-height: 18px !important;
+}
+.MuiStepConnector-line {
+ opacity: 0;
+}
+
+
+
