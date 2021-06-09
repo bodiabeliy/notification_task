@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/notification_task/static/css/main.5440b3d2.chunk.css",
-    "main.js": "/notification_task/static/js/main.37e5bc6a.chunk.js",
-    "main.js.map": "/notification_task/static/js/main.37e5bc6a.chunk.js.map",
+    "main.css": "/notification_task/static/css/main.2ec01658.chunk.css",
+    "main.js": "/notification_task/static/js/main.c4a7d622.chunk.js",
+    "main.js.map": "/notification_task/static/js/main.c4a7d622.chunk.js.map",
     "runtime-main.js": "/notification_task/static/js/runtime-main.5a54583b.js",
     "runtime-main.js.map": "/notification_task/static/js/runtime-main.5a54583b.js.map",
     "static/js/2.153b732f.chunk.js": "/notification_task/static/js/2.153b732f.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.5d80a0f9.chunk.js": "/notification_task/static/js/3.5d80a0f9.chunk.js",
     "static/js/3.5d80a0f9.chunk.js.map": "/notification_task/static/js/3.5d80a0f9.chunk.js.map",
     "index.html": "/notification_task/index.html",
-    "static/css/main.5440b3d2.chunk.css.map": "/notification_task/static/css/main.5440b3d2.chunk.css.map",
+    "static/css/main.2ec01658.chunk.css.map": "/notification_task/static/css/main.2ec01658.chunk.css.map",
     "static/js/2.153b732f.chunk.js.LICENSE.txt": "/notification_task/static/js/2.153b732f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a54583b.js",
     "static/js/2.153b732f.chunk.js",
-    "static/css/main.5440b3d2.chunk.css",
-    "static/js/main.37e5bc6a.chunk.js"
+    "static/css/main.2ec01658.chunk.css",
+    "static/js/main.c4a7d622.chunk.js"
   ]
 }
