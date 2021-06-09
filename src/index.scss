@@ -4,6 +4,7 @@
 
 // Variablies for all selectors 
 $body-background: #e3e3e3;
+$margin-centering: 0 auto;
 $start-zero:0;
 $flex: flex;
 $none: none;
@@ -37,9 +38,8 @@ body {
 }
 .list-contant__show-btn {
  position: relative;
- display: $flex;
- justify-content: flex-end;
- margin-right: 12px;
+ margin-right: 10px;
+ margin-left: 10px;
  .show-btn__bell {
   width: $btn-bell-size;
   height: $btn-bell-size;
@@ -47,6 +47,7 @@ body {
   border: $none;
   margin-bottom: 10px;
   background: $default-background;
+  margin-left: 84%;
  }
 }
 
@@ -68,7 +69,7 @@ body {
  line-height: $paragraph;
  letter-spacing: 1px;
  text-align: $center;
- margin: 0 auto;
+ margin: $margin-centering;
  text-align: $center;
  text-transform: uppercase;
  color: #2361FF;
@@ -94,11 +95,10 @@ body {
 
 // component LevelEnglish
 .level-english__container {
- max-width: 285px;
- height: 325px;
+ width: 285px;
  background: #FAFCFF;
  border-radius: 5px;
- margin: 0 auto;
+ margin: $margin-centering;
  margin-top: 25px;
 }
 h1{
